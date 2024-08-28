@@ -1,0 +1,12 @@
+<h2>User Name: {{ userName }}</h2>
+<button (click)="changeUserName()">Change User Name</button>
+<input type="text" [(ngModel)]="userName" placeholder="Enter your name"> 
+<input type="email" [(ngModel)]="userEmail" placeholder="Enter your email"> 
+<input type="number" [(ngModel)]="userAge" placeholder="Enter your age">
+<p>Name: {{ userName }}</p> 
+<p>Email: {{ userEmail }}</p> 
+<p>Age: {{ userAge }}</p> 
+<button (click)="resetForm()">Reset</button> 
+<div *ngIf="!userName">Name is required.</div> 
+<div *ngIf="!userEmail">Email is required.</div> 
+<div *ngIf="!userAge">Age is required.</div> 
