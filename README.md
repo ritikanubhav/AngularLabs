@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # UserProfileApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
@@ -29,4 +29,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # AngularLabs
 Angular Data Binding Labs
->>>>>>> 31ebab5f9e6bd84f4799a7981566fdb0db31318d
